@@ -1,0 +1,342 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+}
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.li-navbar:hover {
+    background-color: grey;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+.extra-text{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    background-color: firebrick;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.tusk-act4img {
+    position: relative;
+    top: -340px;
+    text-align: left;
+    position: relative;
+    left: -330px;
+   /* align-self: flex-start; */
+    /* margin-top: -20px; */
+    /* pedding-top: 10px; */
+    width: 47%; /* Sesuaikan dengan kebutuhan */
+    margin: 20px auto; /* Pusatkan elemen di tengah */
+    padding: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: firebrick;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    display: block;
+    clear: both; /* Mencegah floating elements mempengaruhi layout */
+}
+
+
+.container-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* padding-left: 50px; */
+}
+
+.a-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: -105px;
+    width: 720px;
+    height: 480px;
+    padding: 20px;
+    background-color: firebrick;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+
+.img-content {
+    width: 60%;
+    height: 60%;
+    margin-right: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.img-tusk4 {
+    width: 60%;
+    height: 60%;
+    margin-right: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.main-container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+
+
+.container-content2 {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+.a-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -105px;
+    width: 720px;
+    height: 480px;
+    padding: 20px;
+    background-color: purple;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.img-content2 {
+    width: 60%;
+    height: 60%;
+    /* margin-right: 20px; */
+    border-radius: 25px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.extra-text3{
+    width: 35%;
+    height: 40%;
+    font-size: 20px;
+    color: black;
+    background-color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.img-ballbreaker {
+    width: 60%;
+    height: 60%;
+    margin-right: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.extra-text4{
+    width: 47%;
+    position: relative;
+    top: -310px;
+    text-align: right;
+    position: relative;
+    right: -285px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: purple;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    display: block;
+    clear: both; /* Mencegah floating elements mempengaruhi layout */
+}
+
+
+
+
+.dio-brando{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    background-color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+.lovetrain-img {
+    position: relative;
+    top: -340px;
+    text-align: left;
+    position: relative;
+    left: -330px;
+   /* align-self: flex-start; */
+    /* margin-top: -20px; */
+    /* pedding-top: 10px; */
+    width: 47%; /* Sesuaikan dengan kebutuhan */
+    margin: 20px auto; /* Pusatkan elemen di tengah */
+    padding: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: firebrick;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    display: block;
+    clear: both; /* Mencegah floating elements mempengaruhi layout */
+}
+
+.a-content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: -105px;
+    width: 720px;
+    height: 480px;
+    padding: 20px;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+}
+
+
+
+
+
+
+
+
+
+.container-footer {
+    height: 10vh;
+    background-color:  #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+
+/* .a-content {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 80px;
+    box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 5px 16px 1px rgba(0,0,0,0.67);
+} */
